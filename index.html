@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- To render all elements normally -->
+  <link rel="stylesheet" href="./src/normalize.css">
+  <link rel="stylesheet" href="./src/all.min.css">
+  <link rel="stylesheet" href="./src/style.css">
+  <title>Kasper</title>
+</head>
+
+<body>
+  <!-- Start Header -->
+  <header>
+    <main>
+      <div class="logo">
+        <img src="assets/logo3.svg" alt="Logo">
+      </div>
+      <div>
+        <ul class="menu" aria-hidden="true">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">About US</a></li>
+        </ul>
+      </div>
+      <form>
+        <button>CONTACT US</button>
+      </form>
+      <button aria-pressed="false" id="t-menu" class="toggle-menu" onclick="testNum(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </button>
+    </main>
+  </header>
+  <!-- End Header -->
+  <!-- Start Home -->
+  <section id="home">
+    <div class="overlay">
+      <div class="text">
+        <div class="content">
+          <h2>HELLO WORLD! <br>
+            WE ARE KASPER, WE MAKE ART.
+          </h2>
+          <br>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores vel tempora officiis reiciendis
+            reprehenderit sunt consequatur quisquam, perspiciat dolores!</p>
+        </div>
+      </div>
+    </div>
+    <i class="fa-solid fa-angle-right fa-2xl change-angle-r"></i>
+    <i class="fa-solid fa-angle-left fa-2xl change-angle-l"></i>
+    <div class="bullets">
+      <ul>
+        <li class="active"></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+  </section>
+  <!-- End of Home -->
+  <!-- Start Services -->
+  <section id="services">
+    <div class="contianer">
+      <div class="main-heading">
+        <h2>SERVIECS</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex accusantium excepturi eos cupiditate? Ipsum,
+          maiores!</p>
+      </div>
+      <div class="s-box">
+        <div class="s-card">
+          <i class="fa-sharp fa-solid fa-angles-right fa-2xl"></i>
+          <div class="text">
+            <h3>Vorem amet intuitive</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam suscipit corrupti hic incidunt dolores ut
+              eveniet, quaerat quas rem beatae!</p>
+          </div>
+        </div>
+        <div class="s-card">
+          <i class="fa-solid fa-people-group fa-2xl"></i>
+          <div class="text">
+            <h3>Vorem amet intuitive</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam suscipit corrupti hic incidunt dolores ut
+              eveniet, quaerat quas rem beatae!</p>
+          </div>
+        </div>
+        <div class="s-card">
+          <i class="fa-sharp fa-solid fa-gear fa-2xl"></i>
+          <div class="text">
+            <h3>Vorem amet intuitive</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam suscipit corrupti hic incidunt dolores ut
+              eveniet, quaerat quas rem beatae!</p>
+          </div>
+        </div>
+        <div class="s-card">
+          <i class="fa-solid fa-truck-fast fa-2xl"></i>
+          <div class="text">
+            <h3>Vorem amet intuitive</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam suscipit corrupti hic incidunt dolores ut
+              eveniet, quaerat quas rem beatae!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Service -->
+  <!-- Start Services bottom -->
+  <section id="s-bottom">
+    <div class="sb-container">
+      <div class="img">
+        <img src="assets/3d-img.svg" alt="3d-img">
+      </div>
+      <div class="s-features">
+        <h3>OUR SERVICES COMES WITH...</h3>
+        <ul>
+          <li>Booking</li>
+          <li>Clearance</li>
+          <li>Support</li>
+          <li>Transport</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- End Servics bottom -->
+  <!-- Start Portfolio -->
+  <section id="portfolio">
+    <div class="main-heading">
+      <h2>PORTFOLIO</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex accusantium excepturi eos cupiditate? Ipsum,
+        maiores!</p>
+    </div>
+    <div class="products">
+      <ul class="p-list">
+        <li class="active">ALL</li>
+        <li>Commercial</li>
+        <li>Textile</li>
+        <li>Industrial</li>
+        <li>Chemical</li>
+      </ul>
+
+      <div class="p-box">
+        <div class="p-card">
+          <div class="p-img">
+            <img src="assets/Gymepuip1.jpg" alt="">
+          </div>
+          <div class="p-caption">
+            <h4>Commercial</h4>
+            <p>Gym Products</p>
+          </div>
+        </div>
+        <div class="p-card">
+          <div class="p-img">
+            <img src="assets/Gymepuip2.jpg" alt="">
+          </div>
+          <div class="p-caption">
+            <h4>Gym Equipment</h4>
+            <p>Gym Products</p>
+          </div>
+        </div>
+        <div class="p-card">
+          <div class="p-img">
+            <img src="assets/textile1.png" alt="">
+          </div>
+          <div class="p-caption">
+            <h4>Textile</h4>
+            <p>Textile Texture</p>
+          </div>
+        </div>
+        <div class="p-card">
+          <div class="p-img">
+            <img src="assets/textile2.jpg" alt="">
+          </div>
+          <div class="p-caption">
+            <h4>Textile</h4>
+            <p>Yarns</p>
+          </div>
+        </div>
+        <div class="p-card">
+          <div class="p-img">
+            <img src="assets/textile3.png" alt="">
+          </div>
+          <div class="p-caption">
+            <h4>Textile</h4>
+            <p>Yarns</p>
+          </div>
+        </div>
+        <div class="p-card">
+          <div class="p-img">
+            <img src="assets/industry1.jpg" alt="">
+          </div>
+          <div class="p-caption">
+            <h4>Industrial equipment</h4>
+            <p>Industrial products</p>
+          </div>
+        </div>
+        <div class="p-card">
+          <div class="p-img">
+            <img src="assets/industry2.png" alt="">
+          </div>
+          <div class="p-caption">
+            <h4>Industrial equipment</h4>
+            <p>Industrial products</p>
+          </div>
+        </div>
+        <div class="p-card">
+          <div class="p-img">
+            <img src="assets/Ch1.png" alt="">
+          </div>
+          <div class="p-caption">
+            <h4>Chemical</h4>
+            <p>Chemical Products</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Portfolio -->
+  <!-- Start About us -->
+  <section id="about">
+    <div class="main-heading">
+      <h2>ABOUT US</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex accusantium excepturi eos cupiditate? Ipsum,
+        maiores!</p>
+    </div>
+    <div class="img-about-us">
+      <img src="assets/about.png" alt="about us img">
+    </div>
+    <div class="container">
+      <div class="quotes">
+        <div class="quote">
+          <div class="content">
+            <!-- I used more accessible pseudo classes in div. -->
+            <div class="img-q">
+              <img src="assets/idea.svg" alt="">
+            </div>
+            <h2>Vorem</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus debitis, maiores illum temporibus.
+            </p>
+          </div>
+        </div>
+        <div class="quote">
+          <!-- I used more accessible pseudo classes in div. -->
+          <div class="content">
+            <div class="img-q">
+              <img src="assets/work.svg" alt="">
+            </div>
+            <h2>intuitive</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita deserunt quasi consectetur veritatis
+              nemo,
+              aspernatur reprehenderit!</p>
+          </div>
+        </div>
+        <div class="quote">
+          <!-- I used more accessible pseudo classes in div. -->
+          <div class="content">
+            <div class="img-q">
+              <img src="assets/deliver.svg" alt="">
+            </div>
+            <h2>Vorem</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis magni harum error nam perspiciatis
+              culpa
+              enim reprehenderit odio.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="skills">
+    <div class="container">
+      <div class="team">
+        <div class="subtitle">
+          <h3>TESTIMONIALS</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti, illum.</p>
+        </div>
+        <div class="box">
+          <div class="card">
+            <img src="assets/1.jpg" alt="">
+            <div class="text">
+              <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, cumque?
+              </p>
+              <span>John Doe, CEO</span>
+            </div>
+          </div>
+          <div class="card">
+            <img src="assets/2.jpg" alt="">
+            <div class="text">
+              <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, cumque?
+              </p>
+              <span>John Doe, CEO</span>
+            </div>
+          </div>
+          <div class="card">
+            <img src="assets/3.jpg" alt="">
+            <div class="text">
+              <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, cumque?
+              </p>
+              <span>John Doe, CEO</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="our-expertise">
+        <div class="subtitle">
+          <h3>OUR EXPERTISE</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, dolorum.</p>
+        </div>
+        <div class="t-box">
+          <div class="t-card">
+            <i class="fa-solid fa-flask-vial fa-2xl"></i>
+            <h4>chemical</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="t-card">
+            <i class="fa-solid fa-rug fa-2xl"></i>
+            <h4>Textile</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+          <div class="t-card">
+            <i class="fa-solid fa-warehouse fa-2xl"></i>
+            <h4>commercial</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="t-card">
+            <i class="fa-solid fa-industry fa-2xl"></i>
+            <h4>Industrial</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End About us -->
+  <section id="message">
+    <div class="container">
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae, facere animi amet pariatur ex eligendi error.
+        Nam</p>
+      <span>John Deo</span>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="container">
+      <div class="main-heading">
+        <h2>CONTACT US</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex accusantium excepturi eos cupiditate? Ipsum,
+          maiores!</p>
+      </div>
+      <div class="box">
+        <form action="">
+          <input class="main-input" type="text" name="name" placeholder="Your name">
+          <input class="main-input" type="email" name="mail" placeholder="Your email">
+          <textarea class="main-input" placeholder="Your message"></textarea>
+          <input type="submit" value="SEND MESSAGE">
+        </form>
+        <div class="info">
+          <div> <!-- for Mobile Media -->
+            <h4>GET IN TOUCH</h4>
+            <div class="phone">
+              <p>+00 123.456.789</p>
+              <br>
+              <p>+00 123.456.789</p>
+            </div>
+          </div>
+          <div> <!-- for Mobile Media -->
+            <h4>WHERE WE ARE</h4>
+            <address>
+              Awesome Addrress 17 <br> New York, NYC <br> 123-4567-890 <br> USA
+            </address>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="logo">
+      <img src="assets/logo3.svg" alt="logo-image">
+    </div>
+    <h3>WE ARE SOCIAL</h3>
+    <i class="fa-brands fa-facebook-f"></i>
+    <i class="fa-brands fa-linkedin"></i>
+    <i class="fa-solid fa-envelope"></i>
+    <i class="fa-solid fa-house"></i>
+    <p>&copy; 2023 <a href="al-rouby.com">Al-Rouby.com</a> Developed by <a
+        href="https://github.com/Mustafa-Max">Mustafa_Max</a></p>
+  </footer>
+  <script src="main.js"></script>
+</body>
+
+</html>
