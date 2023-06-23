@@ -114,6 +114,12 @@ header .menu a:hover {
   border-bottom: 1px solid var(--main-color);
 }
 
+header a.active {
+  color: var(--main-color);
+  font-weight: bold;
+  border-bottom: 1px solid var(--main-color);
+}
+
 header form button {
   padding: 10px 10px;
   background-color: var(--main-color);
@@ -130,6 +136,11 @@ header form button:hover {
   background-color: white;
   color: var(--main-color);
   font-weight: bold;
+}
+
+header form button a {
+  color: unset;
+  text-decoration: unset;
 }
 
 header .toggle-menu {
@@ -194,7 +205,7 @@ header .toggle-menu > div {
     color: var(--bg-color);
   }
 
-    header .menu[aria-hidden="false"] a:hover {
+  header .menu[aria-hidden="false"] a:hover {
     color: var(--main-color);
   }
 
