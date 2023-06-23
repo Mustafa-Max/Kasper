@@ -14,7 +14,6 @@ function iconMenu() {
 }
 
 navbar = document.querySelector(".menu").querySelectorAll("a");
-console.log(navbar);
 
 navbar.forEach(element => {
   element.addEventListener("click", function () {
